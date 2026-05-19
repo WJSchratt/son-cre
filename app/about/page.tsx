@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card";
+﻿import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -20,7 +20,7 @@ export default function AboutPage() {
             About
           </p>
           <h1 className="text-4xl md:text-5xl font-bold">Son Hai Vo</h1>
-          <p className="text-slate-300 mt-3 text-lg">Commercial Real Estate Advisor ÃÂ· St. Petersburg, FL</p>
+          <p className="text-slate-300 mt-3 text-lg">Commercial Real Estate Advisor · St. Petersburg, FL</p>
         </div>
       </section>
 
@@ -61,26 +61,26 @@ export default function AboutPage() {
               {/* PLACEHOLDER BIO SECTIONS */}
               <div className="space-y-5 text-slate-600 leading-relaxed">
                 <p>
-                  [PLACEHOLDER: Opening paragraph â€” background, how you got into commercial real
+                  [PLACEHOLDER: Opening paragraph — background, how you got into commercial real
                   estate, years of experience. Example: "With X years of experience in the Tampa
                   Bay commercial real estate market, I specialize in helping investors and business
                   owners identify, evaluate, and close on commercial opportunities across Pinellas
                   County."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Second paragraph â€” specific expertise, asset classes, notable
+                  [PLACEHOLDER: Second paragraph — specific expertise, asset classes, notable
                   accomplishments, transaction volume, or market niche. Example: "My focus is on
                   retail, office, and mixed-use properties in the St. Petersburg core markets,
                   including the Grand Central District, Edge District, and Downtown waterfront."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Third paragraph â€” approach/philosophy, what sets you apart,
+                  [PLACEHOLDER: Third paragraph — approach/philosophy, what sets you apart,
                   client commitment. Example: "My approach is straightforward: I provide
-                  honest, research-backed guidance so my clients can make confident decisions â€”
+                  honest, research-backed guidance so my clients can make confident decisions —
                   whether that means moving forward on a deal or walking away from one."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Personal/connection to St. Pete paragraph â€” optional but
+                  [PLACEHOLDER: Personal/connection to St. Pete paragraph — optional but
                   humanizes the profile. Example: "A St. Pete resident since X, I&apos;m invested in
                   this community personally as well as professionally."]
                 </p>
@@ -94,19 +94,19 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-2 text-slate-600 text-sm list-none">
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">â€”</span>
-                  <span>Florida Licensed Real Estate Professional ÃÂ· License #[FL_LICENSE_NUMBER]</span>
+                  <span className="text-slate-400 mt-1">—</span>
+                  <span>Florida Licensed Real Estate Professional · License #SL3372693</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">â€”</span>
+                  <span className="text-slate-400 mt-1">—</span>
                   <span>[PLACEHOLDER: Brokerage affiliation]</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">â€”</span>
+                  <span className="text-slate-400 mt-1">—</span>
                   <span>[PLACEHOLDER: Professional associations, e.g., CCIM, LoopNet member, etc.]</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">â€”</span>
+                  <span className="text-slate-400 mt-1">—</span>
                   <span>[PLACEHOLDER: Education or certifications]</span>
                 </li>
               </ul>

@@ -57,7 +57,7 @@ export default function Footer() {
         <Separator className="my-6 bg-slate-800" />
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <p>ÃÂ© {currentYear} Son Hai Vo Real Estate. All rights reserved.</p>
+          <p>© {currentYear} Son Hai Vo Real Estate. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
