@@ -46,10 +46,10 @@ export default function ContactPage() {
                         Phone
                       </p>
                       <a
-                        href="tel:[BUSINESS_PHONE]"
+                        href="tel:(352) 222-4850"
                         className="text-slate-900 font-medium text-sm hover:text-slate-600 transition-colors"
                       >
-                        [BUSINESS_PHONE]
+                        (352) 222-4850
                       </a>
                     </div>
                   </div>
@@ -62,10 +62,10 @@ export default function ContactPage() {
                         Email
                       </p>
                       <a
-                        href="mailto:[BUSINESS_EMAIL]"
+                        href="mailto:svo@smithandassociates.com"
                         className="text-slate-900 font-medium text-sm hover:text-slate-600 transition-colors"
                       >
-                        [BUSINESS_EMAIL]
+                        svo@smithandassociates.com
                       </a>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export default function ContactPage() {
                       <p className="text-slate-900 font-medium text-sm">
                         St. Petersburg, FL
                         <br />
-                        [BUSINESS_ADDRESS]
+                        100 2nd Ave S, Ste 100
                       </p>
                     </div>
                   </div>
@@ -188,7 +188,7 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    {/* SMS Consent Checkbox — exact text required for A2P compliance */}
+                    {/* SMS Consent Checkbox â€” exact text required for A2P compliance */}
                     <div className="rounded-lg border border-stone-200 bg-stone-50 p-4">
                       <div className="flex items-start gap-3">
                         <Checkbox
@@ -202,7 +202,7 @@ export default function ContactPage() {
                           className="text-xs text-slate-600 leading-relaxed cursor-pointer"
                         >
                           By submitting this form and providing my phone number, I consent to
-                          receive SMS messages from [BUSINESS_NAME] regarding commercial real
+                          receive SMS messages from Son Hai Vo Real Estate regarding commercial real
                           estate opportunities. Message and data rates may apply. Message
                           frequency varies. Reply STOP to unsubscribe at any time. Reply HELP
                           for help.
@@ -243,3 +243,4 @@ export default function ContactPage() {
     </div>
   );
 }
+

@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "Terms of Service | [BUSINESS_NAME]",
-  description: "Terms of Service for [BUSINESS_NAME], including SMS program terms, site use, and the business relationship.",
+  title: "Terms of Service | Son Hai Vo Real Estate",
+  description: "Terms of Service for Son Hai Vo Real Estate, including SMS program terms, site use, and the business relationship.",
 };
 
 const lastUpdated = "May 19, 2025";
@@ -26,7 +26,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">Agreement to Terms</h2>
               <p>
-                These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the website located at [BUSINESS_WEBSITE] (the &ldquo;Site&rdquo;) operated by [BUSINESS_NAME], a sole proprietorship owned and operated by [OWNER_FULL_NAME] in St. Petersburg, Florida (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
+                These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of the website located at https://sonhaivo.smithandassociates.com (the &ldquo;Site&rdquo;) operated by Son Hai Vo Real Estate, a sole proprietorship owned and operated by Son Hai Vo in St. Petersburg, Florida (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
               </p>
               <p className="mt-3">
                 By accessing or using the Site, submitting a contact form, or engaging with our SMS program, you agree to be bound by these Terms. If you do not agree, please do not use the Site or our services.
@@ -55,7 +55,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">2. Intellectual Property</h2>
               <p>
-                All content on this Site — including text, graphics, logos, and page design — is the property of [BUSINESS_NAME] or its content suppliers and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from any Site content without our express written permission.
+                All content on this Site â€” including text, graphics, logos, and page design â€” is the property of Son Hai Vo Real Estate or its content suppliers and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from any Site content without our express written permission.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ export default function TermsOfServicePage() {
                 Content on this Site is provided for general informational purposes only. Nothing on this Site constitutes legal, financial, tax, or investment advice. Market data, property information, and commentary are subject to change and may not reflect current conditions.
               </p>
               <p className="mt-3">
-                Engaging [BUSINESS_NAME] as your commercial real estate advisor is governed by a separate written agreement. The existence of this Site does not create a client, agency, or fiduciary relationship between you and [BUSINESS_NAME].
+                Engaging Son Hai Vo Real Estate as your commercial real estate advisor is governed by a separate written agreement. The existence of this Site does not create a client, agency, or fiduciary relationship between you and Son Hai Vo Real Estate.
               </p>
             </div>
 
@@ -81,21 +81,21 @@ export default function TermsOfServicePage() {
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Program Description</h3>
                   <p>
-                    [BUSINESS_NAME] operates an SMS messaging program through which we may send commercial real estate information, property opportunities, market updates, and follow-up communications to individuals who have opted in to receive SMS messages from us.
+                    Son Hai Vo Real Estate operates an SMS messaging program through which we may send commercial real estate information, property opportunities, market updates, and follow-up communications to individuals who have opted in to receive SMS messages from us.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Sender Identification</h3>
                   <p>
-                    SMS messages are sent by [BUSINESS_NAME], operated by [OWNER_FULL_NAME], St. Petersburg, Florida. The sending number is associated with our registered messaging campaign.
+                    SMS messages are sent by Son Hai Vo Real Estate, operated by Son Hai Vo, St. Petersburg, Florida. The sending number is associated with our registered messaging campaign.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Opt-In</h3>
                   <p>
-                    By providing your mobile phone number and checking the SMS consent checkbox on our contact form, you expressly consent to receive SMS messages from [BUSINESS_NAME]. Consent to receive SMS messages is not required as a condition of purchasing any property, engaging our services, or receiving information.
+                    By providing your mobile phone number and checking the SMS consent checkbox on our contact form, you expressly consent to receive SMS messages from Son Hai Vo Real Estate. Consent to receive SMS messages is not required as a condition of purchasing any property, engaging our services, or receiving information.
                   </p>
                 </div>
 
@@ -123,17 +123,17 @@ export default function TermsOfServicePage() {
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">How to Stop (Opt Out)</h3>
                   <p>
-                    To stop receiving SMS messages from [BUSINESS_NAME], reply <strong>STOP</strong> to any message we send. You will receive one final confirmation message acknowledging your opt-out. After that, you will not receive further SMS messages unless you re-enroll.
+                    To stop receiving SMS messages from Son Hai Vo Real Estate, reply <strong>STOP</strong> to any message we send. You will receive one final confirmation message acknowledging your opt-out. After that, you will not receive further SMS messages unless you re-enroll.
                   </p>
                   <p className="mt-2">
-                    You may also opt out by contacting us at [BUSINESS_EMAIL] or [BUSINESS_PHONE].
+                    You may also opt out by contacting us at svo@smithandassociates.com or (352) 222-4850.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">HELP</h3>
                   <p>
-                    For assistance with our SMS program, reply <strong>HELP</strong> to any SMS message you receive from us, or contact us directly at [BUSINESS_EMAIL].
+                    For assistance with our SMS program, reply <strong>HELP</strong> to any SMS message you receive from us, or contact us directly at svo@smithandassociates.com.
                   </p>
                 </div>
 
@@ -166,13 +166,13 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">5. Business Relationship</h2>
               <p>
-                [BUSINESS_NAME] is a sole proprietorship providing commercial real estate advisory services. Nothing in these Terms creates a partnership, joint venture, employment, franchise, or agency relationship between you and [BUSINESS_NAME].
+                Son Hai Vo Real Estate is a sole proprietorship providing commercial real estate advisory services. Nothing in these Terms creates a partnership, joint venture, employment, franchise, or agency relationship between you and Son Hai Vo Real Estate.
               </p>
               <p className="mt-3">
                 Any formal representation agreement, buyer&apos;s representation agreement, or listing agreement must be executed in writing and signed by both parties to be binding.
               </p>
               <p className="mt-3">
-                [BUSINESS_NAME] operates in compliance with Florida real estate licensing requirements. License information: [FL_LICENSE_NUMBER].
+                Son Hai Vo Real Estate operates in compliance with Florida real estate licensing requirements. License information: [FL_LICENSE_NUMBER].
               </p>
             </div>
 
@@ -190,7 +190,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">7. Limitation of Liability</h2>
               <p>
-                TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, [BUSINESS_NAME] AND [OWNER_FULL_NAME] SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE, OUR SERVICES, OR OUR SMS PROGRAM, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, Son Hai Vo Real Estate AND Son Hai Vo SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE, OUR SERVICES, OR OUR SMS PROGRAM, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
               </p>
             </div>
 
@@ -227,20 +227,20 @@ export default function TermsOfServicePage() {
               <h2 className="text-xl font-bold text-slate-900 mb-3">11. Contact</h2>
               <p>For questions about these Terms, please contact us:</p>
               <div className="mt-4 bg-stone-50 rounded-lg p-5 border border-stone-200">
-                <p className="font-semibold text-slate-900">[BUSINESS_NAME]</p>
-                <p className="mt-1">[OWNER_FULL_NAME]</p>
-                <p>[BUSINESS_ADDRESS]</p>
-                <p>St. Petersburg, FL [ZIP_CODE]</p>
+                <p className="font-semibold text-slate-900">Son Hai Vo Real Estate</p>
+                <p className="mt-1">Son Hai Vo</p>
+                <p>100 2nd Ave S, Ste 100</p>
+                <p>St. Petersburg, FL 33701</p>
                 <p className="mt-2">
                   Email:{" "}
-                  <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">
-                    [BUSINESS_EMAIL]
+                  <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">
+                    svo@smithandassociates.com
                   </a>
                 </p>
                 <p>
                   Phone:{" "}
-                  <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">
-                    [BUSINESS_PHONE]
+                  <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">
+                    (352) 222-4850
                   </a>
                 </p>
               </div>
@@ -251,3 +251,4 @@ export default function TermsOfServicePage() {
     </div>
   );
 }
+

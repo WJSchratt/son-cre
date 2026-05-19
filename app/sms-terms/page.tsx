@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "SMS Terms | [BUSINESS_NAME]",
+  title: "SMS Terms | Son Hai Vo Real Estate",
   description:
-    "SMS messaging terms and conditions for [BUSINESS_NAME]. Learn about our SMS program, message frequency, opt-out instructions, and carrier information.",
+    "SMS messaging terms and conditions for Son Hai Vo Real Estate. Learn about our SMS program, message frequency, opt-out instructions, and carrier information.",
 };
 
 const lastUpdated = "May 19, 2025";
@@ -27,23 +27,23 @@ export default function SmsTermsPage() {
             <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
               <p className="font-semibold text-slate-900 mb-2">Summary</p>
               <p>
-                [BUSINESS_NAME] sends SMS messages about commercial real estate to individuals who have opted in. Reply <strong>STOP</strong> to stop. Reply <strong>HELP</strong> for help. Msg &amp; data rates may apply.
+                Son Hai Vo Real Estate sends SMS messages about commercial real estate to individuals who have opted in. Reply <strong>STOP</strong> to stop. Reply <strong>HELP</strong> for help. Msg &amp; data rates may apply.
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">1. Who Is Sending These Messages?</h2>
               <p>
-                SMS messages are sent by <strong>[BUSINESS_NAME]</strong>, a commercial real estate advisory business operated by [OWNER_FULL_NAME] as a sole proprietor in St. Petersburg, Florida.
+                SMS messages are sent by <strong>Son Hai Vo Real Estate</strong>, a commercial real estate advisory business operated by Son Hai Vo as a sole proprietor in St. Petersburg, Florida.
               </p>
               <div className="mt-4 bg-stone-50 rounded-lg p-4 border border-stone-200">
-                <p className="font-semibold text-slate-900">[BUSINESS_NAME]</p>
-                <p>[OWNER_FULL_NAME]</p>
-                <p>[BUSINESS_ADDRESS]</p>
-                <p>St. Petersburg, FL [ZIP_CODE]</p>
+                <p className="font-semibold text-slate-900">Son Hai Vo Real Estate</p>
+                <p>Son Hai Vo</p>
+                <p>100 2nd Ave S, Ste 100</p>
+                <p>St. Petersburg, FL 33701</p>
                 <p className="mt-1">
-                  <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">[BUSINESS_EMAIL]</a> &nbsp;|&nbsp;{" "}
-                  <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">[BUSINESS_PHONE]</a>
+                  <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">svo@smithandassociates.com</a> &nbsp;|&nbsp;{" "}
+                  <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">(352) 222-4850</a>
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function SmsTermsPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">2. Program Description</h2>
               <p>
-                [BUSINESS_NAME] uses SMS to communicate with current and prospective clients about commercial real estate matters, including but not limited to:
+                Son Hai Vo Real Estate uses SMS to communicate with current and prospective clients about commercial real estate matters, including but not limited to:
               </p>
               <ul className="list-disc pl-5 space-y-1 mt-3">
                 <li>Commercial property listings and investment opportunities in the St. Petersburg and Pinellas County market</li>
@@ -71,12 +71,12 @@ export default function SmsTermsPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">3. How to Opt In</h2>
               <p>
-                You may opt in to receive SMS messages from [BUSINESS_NAME] by:
+                You may opt in to receive SMS messages from Son Hai Vo Real Estate by:
               </p>
               <ul className="list-disc pl-5 space-y-1 mt-3">
                 <li>
                   Providing your mobile phone number and checking the SMS consent checkbox on our website contact form at{" "}
-                  <Link href="/contact" className="underline hover:text-slate-600">[BUSINESS_WEBSITE]/contact</Link>
+                  <Link href="/contact" className="underline hover:text-slate-600">https://sonhaivo.smithandassociates.com/contact</Link>
                 </li>
                 <li>Any other documented opt-in method we may make available</li>
               </ul>
@@ -113,7 +113,7 @@ export default function SmsTermsPage() {
                 Msg &amp; data rates may apply.
               </p>
               <p className="mt-2">
-                Standard carrier message and data rates apply to all SMS messages sent and received. [BUSINESS_NAME] does not charge any fees for SMS communications. Your mobile carrier may charge standard messaging rates. We are not responsible for charges assessed by your mobile carrier.
+                Standard carrier message and data rates apply to all SMS messages sent and received. Son Hai Vo Real Estate does not charge any fees for SMS communications. Your mobile carrier may charge standard messaging rates. We are not responsible for charges assessed by your mobile carrier.
               </p>
             </div>
 
@@ -122,7 +122,7 @@ export default function SmsTermsPage() {
             <div className="bg-stone-50 border-l-4 border-slate-900 pl-5 py-4 rounded-r-lg">
               <h2 className="text-xl font-bold text-slate-900 mb-3">6. How to Stop (STOP Keyword)</h2>
               <p>
-                You may opt out of receiving SMS messages from [BUSINESS_NAME] at any time by:
+                You may opt out of receiving SMS messages from Son Hai Vo Real Estate at any time by:
               </p>
               <ul className="list-disc pl-5 space-y-2 mt-3">
                 <li>
@@ -130,12 +130,12 @@ export default function SmsTermsPage() {
                 </li>
                 <li>
                   Emailing us at{" "}
-                  <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">[BUSINESS_EMAIL]</a>{" "}
+                  <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">svo@smithandassociates.com</a>{" "}
                   with a request to be removed from SMS communications.
                 </li>
                 <li>
                   Calling us at{" "}
-                  <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">[BUSINESS_PHONE]</a>{" "}
+                  <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">(352) 222-4850</a>{" "}
                   and requesting removal.
                 </li>
               </ul>
@@ -153,9 +153,9 @@ export default function SmsTermsPage() {
               </p>
               <p className="mt-2">
                 You may also email{" "}
-                <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">[BUSINESS_EMAIL]</a>{" "}
+                <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">svo@smithandassociates.com</a>{" "}
                 or call{" "}
-                <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">[BUSINESS_PHONE]</a>.
+                <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">(352) 222-4850</a>.
               </p>
             </div>
 
@@ -184,16 +184,16 @@ export default function SmsTermsPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">9. Carrier Disclaimer</h2>
               <p>
-                <strong>Mobile carriers are not liable for delayed or undelivered messages.</strong> Message delivery is subject to your carrier&apos;s network availability and conditions. [BUSINESS_NAME] is not responsible for messages that are delayed or not delivered due to carrier conditions, network outages, or other factors outside our control.
+                <strong>Mobile carriers are not liable for delayed or undelivered messages.</strong> Message delivery is subject to your carrier&apos;s network availability and conditions. Son Hai Vo Real Estate is not responsible for messages that are delayed or not delivered due to carrier conditions, network outages, or other factors outside our control.
               </p>
             </div>
 
             <Separator />
 
             <div>
-              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Privacy — No Third-Party Sharing</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Privacy â€” No Third-Party Sharing</h2>
               <p>
-                Phone numbers and opt-in consent data collected for our SMS program are <strong>NOT shared with third parties or affiliates for marketing purposes</strong>. Your phone number is used solely to facilitate SMS communications from [BUSINESS_NAME] and to maintain compliance records.
+                Phone numbers and opt-in consent data collected for our SMS program are <strong>NOT shared with third parties or affiliates for marketing purposes</strong>. Your phone number is used solely to facilitate SMS communications from Son Hai Vo Real Estate and to maintain compliance records.
               </p>
               <p className="mt-3">
                 For full details on how we handle your personal information, please review our{" "}
@@ -216,13 +216,13 @@ export default function SmsTermsPage() {
               <h2 className="text-xl font-bold text-slate-900 mb-3">12. Contact</h2>
               <p>Questions about our SMS program? Contact us:</p>
               <div className="mt-4 bg-stone-50 rounded-lg p-5 border border-stone-200">
-                <p className="font-semibold text-slate-900">[BUSINESS_NAME]</p>
-                <p>[OWNER_FULL_NAME]</p>
-                <p>[BUSINESS_ADDRESS], St. Petersburg, FL [ZIP_CODE]</p>
+                <p className="font-semibold text-slate-900">Son Hai Vo Real Estate</p>
+                <p>Son Hai Vo</p>
+                <p>100 2nd Ave S, Ste 100, St. Petersburg, FL 33701</p>
                 <p className="mt-2">
-                  <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">[BUSINESS_EMAIL]</a>
-                  {" · "}
-                  <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">[BUSINESS_PHONE]</a>
+                  <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">svo@smithandassociates.com</a>
+                  {" ÃÂ· "}
+                  <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">(352) 222-4850</a>
                 </p>
               </div>
               <p className="mt-4">
@@ -236,3 +236,4 @@ export default function SmsTermsPage() {
     </div>
   );
 }
+

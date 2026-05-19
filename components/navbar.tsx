@@ -22,8 +22,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex flex-col leading-tight">
-            <span className="text-base font-semibold tracking-wide">[BUSINESS_NAME]</span>
-            <span className="text-xs text-slate-400 font-normal">Commercial Real Estate · St. Petersburg, FL</span>
+            <span className="text-base font-semibold tracking-wide">Son Hai Vo Real Estate</span>
+            <span className="text-xs text-slate-400 font-normal">Commercial Real Estate ÃÂ· St. Petersburg, FL</span>
           </Link>
 
           {/* Desktop nav */}
@@ -80,3 +80,4 @@ export default function Navbar() {
     </header>
   );
 }
+

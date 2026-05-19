@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata = {
-  title: "Privacy Policy | [BUSINESS_NAME]",
-  description: "Privacy Policy for [BUSINESS_NAME], including how we collect, use, and protect your information, and our SMS messaging practices.",
+  title: "Privacy Policy | Son Hai Vo Real Estate",
+  description: "Privacy Policy for Son Hai Vo Real Estate, including how we collect, use, and protect your information, and our SMS messaging practices.",
 };
 
 const lastUpdated = "May 19, 2025";
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">Introduction</h2>
               <p>
-                [BUSINESS_NAME] (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), operated by [OWNER_FULL_NAME] as a sole proprietor in St. Petersburg, Florida, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at [BUSINESS_WEBSITE] (the &ldquo;Site&rdquo;) or interact with us through other channels, including SMS messaging.
+                Son Hai Vo Real Estate (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), operated by Son Hai Vo as a sole proprietor in St. Petersburg, Florida, is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at https://sonhaivo.smithandassociates.com (the &ldquo;Site&rdquo;) or interact with us through other channels, including SMS messaging.
               </p>
               <p className="mt-3">
                 Please read this policy carefully. By using the Site or providing your information to us, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the Site or provide your information.
@@ -94,40 +94,40 @@ export default function PrivacyPolicyPage() {
                   <strong>Legal Requirements:</strong> We may disclose your information if required to do so by law or in response to valid legal process (e.g., a subpoena or court order).
                 </li>
                 <li>
-                  <strong>Protection of Rights:</strong> We may disclose information to protect the rights, property, or safety of [BUSINESS_NAME], our clients, or the public.
+                  <strong>Protection of Rights:</strong> We may disclose information to protect the rights, property, or safety of Son Hai Vo Real Estate, our clients, or the public.
                 </li>
               </ul>
             </div>
 
             <Separator />
 
-            {/* SMS SECTION — Critical for Twilio A2P compliance */}
+            {/* SMS SECTION â€” Critical for Twilio A2P compliance */}
             <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
-              <h2 className="text-xl font-bold text-slate-900 mb-3">4. SMS Messaging — Important Notice</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">4. SMS Messaging â€” Important Notice</h2>
 
               <div className="space-y-4">
                 <p>
-                  [BUSINESS_NAME] operates an SMS messaging program to communicate commercial real estate opportunities to individuals who have expressly opted in to receive such messages.
+                  Son Hai Vo Real Estate operates an SMS messaging program to communicate commercial real estate opportunities to individuals who have expressly opted in to receive such messages.
                 </p>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Opt-In and Consent</h3>
                   <p>
-                    We only send SMS messages to individuals who have provided their phone number and explicitly consented to receive SMS communications from [BUSINESS_NAME]. Consent may be provided through our website contact form or through another documented opt-in method. We maintain records of all SMS opt-in consents, including the date, time, and mechanism of consent.
+                    We only send SMS messages to individuals who have provided their phone number and explicitly consented to receive SMS communications from Son Hai Vo Real Estate. Consent may be provided through our website contact form or through another documented opt-in method. We maintain records of all SMS opt-in consents, including the date, time, and mechanism of consent.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">No Sharing of SMS Data</h3>
                   <p className="font-medium text-slate-900">
-                    Phone numbers collected for SMS opt-in purposes and the related opt-in consent data are NOT shared with third parties or affiliates for marketing purposes. This data is used solely to facilitate SMS communications on behalf of [BUSINESS_NAME] and to maintain compliance records.
+                    Phone numbers collected for SMS opt-in purposes and the related opt-in consent data are NOT shared with third parties or affiliates for marketing purposes. This data is used solely to facilitate SMS communications on behalf of Son Hai Vo Real Estate and to maintain compliance records.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Message Content and Frequency</h3>
                   <p>
-                    SMS messages from [BUSINESS_NAME] may include information about commercial real estate opportunities, property listings, market updates, and follow-up communications related to inquiries you have made. Message frequency varies based on the nature of your inquiry and the commercial real estate opportunities available.
+                    SMS messages from Son Hai Vo Real Estate may include information about commercial real estate opportunities, property listings, market updates, and follow-up communications related to inquiries you have made. Message frequency varies based on the nature of your inquiry and the commercial real estate opportunities available.
                   </p>
                 </div>
 
@@ -141,14 +141,14 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">How to Opt Out</h3>
                   <p>
-                    You may opt out of receiving SMS messages at any time by replying <strong>STOP</strong> to any SMS message you receive from us. After opting out, you will receive one final confirmation message and will not receive further SMS communications unless you re-enroll. You may also opt out by contacting us directly at [BUSINESS_EMAIL] or [BUSINESS_PHONE].
+                    You may opt out of receiving SMS messages at any time by replying <strong>STOP</strong> to any SMS message you receive from us. After opting out, you will receive one final confirmation message and will not receive further SMS communications unless you re-enroll. You may also opt out by contacting us directly at svo@smithandassociates.com or (352) 222-4850.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="font-semibold text-slate-800 mb-2">Help</h3>
                   <p>
-                    For help with our SMS program, reply <strong>HELP</strong> to any SMS message or contact us at [BUSINESS_EMAIL].
+                    For help with our SMS program, reply <strong>HELP</strong> to any SMS message or contact us at svo@smithandassociates.com.
                   </p>
                 </div>
 
@@ -217,25 +217,25 @@ export default function PrivacyPolicyPage() {
             <Separator />
 
             <div>
-              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Contact Us — Privacy Questions</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Contact Us â€” Privacy Questions</h2>
               <p>
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="mt-4 bg-stone-50 rounded-lg p-5 border border-stone-200">
-                <p className="font-semibold text-slate-900">[BUSINESS_NAME]</p>
-                <p className="mt-1">[OWNER_FULL_NAME]</p>
-                <p>[BUSINESS_ADDRESS]</p>
-                <p>St. Petersburg, FL [ZIP_CODE]</p>
+                <p className="font-semibold text-slate-900">Son Hai Vo Real Estate</p>
+                <p className="mt-1">Son Hai Vo</p>
+                <p>100 2nd Ave S, Ste 100</p>
+                <p>St. Petersburg, FL 33701</p>
                 <p className="mt-2">
                   Email:{" "}
-                  <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">
-                    [BUSINESS_EMAIL]
+                  <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">
+                    svo@smithandassociates.com
                   </a>
                 </p>
                 <p>
                   Phone:{" "}
-                  <a href="tel:[BUSINESS_PHONE]" className="underline hover:text-slate-600">
-                    [BUSINESS_PHONE]
+                  <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">
+                    (352) 222-4850
                   </a>
                 </p>
               </div>
@@ -257,8 +257,8 @@ export default function PrivacyPolicyPage() {
                   our contact page
                 </Link>{" "}
                 or email{" "}
-                <a href="mailto:[BUSINESS_EMAIL]" className="underline hover:text-slate-600">
-                  [BUSINESS_EMAIL]
+                <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">
+                  svo@smithandassociates.com
                 </a>
                 .
               </p>
@@ -269,3 +269,4 @@ export default function PrivacyPolicyPage() {
     </div>
   );
 }
+

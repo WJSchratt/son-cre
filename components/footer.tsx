@@ -9,13 +9,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <p className="text-white font-semibold text-sm mb-1">[BUSINESS_NAME]</p>
+            <p className="text-white font-semibold text-sm mb-1">Son Hai Vo Real Estate</p>
             <p className="text-xs leading-relaxed">
               Commercial Real Estate Advisor<br />
               St. Petersburg, Florida
             </p>
-            <p className="text-xs mt-3">[BUSINESS_PHONE]</p>
-            <p className="text-xs">[BUSINESS_EMAIL]</p>
+            <p className="text-xs mt-3">(352) 222-4850</p>
+            <p className="text-xs">svo@smithandassociates.com</p>
           </div>
 
           <div>
@@ -57,7 +57,7 @@ export default function Footer() {
         <Separator className="my-6 bg-slate-800" />
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-          <p>© {currentYear} [BUSINESS_NAME]. All rights reserved.</p>
+          <p>ÃÂ© {currentYear} Son Hai Vo Real Estate. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
@@ -69,3 +69,4 @@ export default function Footer() {
     </footer>
   );
 }
+

@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight, Award, MapPin, Briefcase } from "lucide-react";
 
 export const metadata = {
-  title: "About | [BUSINESS_NAME]",
+  title: "About | Son Hai Vo Real Estate",
   description:
-    "Learn about [OWNER_FULL_NAME], commercial real estate advisor serving St. Petersburg and Pinellas County, Florida.",
+    "Learn about Son Hai Vo, commercial real estate advisor serving St. Petersburg and Pinellas County, Florida.",
 };
 
 export default function AboutPage() {
@@ -19,8 +19,8 @@ export default function AboutPage() {
           <p className="text-xs font-semibold tracking-widest uppercase text-slate-400 mb-3">
             About
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold">[OWNER_FULL_NAME]</h1>
-          <p className="text-slate-300 mt-3 text-lg">Commercial Real Estate Advisor · St. Petersburg, FL</p>
+          <h1 className="text-4xl md:text-5xl font-bold">Son Hai Vo</h1>
+          <p className="text-slate-300 mt-3 text-lg">Commercial Real Estate Advisor ÃÂ· St. Petersburg, FL</p>
         </div>
       </section>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <div className="bg-stone-100 rounded-2xl aspect-[3/4] flex items-center justify-center border border-stone-200">
                 <div className="text-center text-slate-400 px-6">
                   <div className="w-16 h-16 rounded-full bg-stone-200 mx-auto mb-3 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-slate-400">[INITIALS]</span>
+                    <span className="text-2xl font-bold text-slate-400">SHV</span>
                   </div>
                   <p className="text-xs">[PLACEHOLDER: Professional headshot]</p>
                 </div>
@@ -45,7 +45,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-center gap-2 text-slate-600 text-sm">
                   <Briefcase className="h-4 w-4 text-slate-400" />
-                  <span>[BROKERAGE_NAME]</span>
+                  <span>Smith & Associates Real Estate</span>
                 </div>
                 <div className="flex items-center gap-2 text-slate-600 text-sm">
                   <Award className="h-4 w-4 text-slate-400" />
@@ -56,31 +56,31 @@ export default function AboutPage() {
 
             {/* Bio text */}
             <div className="md:col-span-2">
-              <h2 className="text-2xl font-bold text-slate-900 mb-6">About [OWNER_FIRST_NAME]</h2>
+              <h2 className="text-2xl font-bold text-slate-900 mb-6">About Son</h2>
 
               {/* PLACEHOLDER BIO SECTIONS */}
               <div className="space-y-5 text-slate-600 leading-relaxed">
                 <p>
-                  [PLACEHOLDER: Opening paragraph — background, how you got into commercial real
+                  [PLACEHOLDER: Opening paragraph â€” background, how you got into commercial real
                   estate, years of experience. Example: "With X years of experience in the Tampa
                   Bay commercial real estate market, I specialize in helping investors and business
                   owners identify, evaluate, and close on commercial opportunities across Pinellas
                   County."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Second paragraph — specific expertise, asset classes, notable
+                  [PLACEHOLDER: Second paragraph â€” specific expertise, asset classes, notable
                   accomplishments, transaction volume, or market niche. Example: "My focus is on
                   retail, office, and mixed-use properties in the St. Petersburg core markets,
                   including the Grand Central District, Edge District, and Downtown waterfront."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Third paragraph — approach/philosophy, what sets you apart,
+                  [PLACEHOLDER: Third paragraph â€” approach/philosophy, what sets you apart,
                   client commitment. Example: "My approach is straightforward: I provide
-                  honest, research-backed guidance so my clients can make confident decisions —
+                  honest, research-backed guidance so my clients can make confident decisions â€”
                   whether that means moving forward on a deal or walking away from one."]
                 </p>
                 <p>
-                  [PLACEHOLDER: Personal/connection to St. Pete paragraph — optional but
+                  [PLACEHOLDER: Personal/connection to St. Pete paragraph â€” optional but
                   humanizes the profile. Example: "A St. Pete resident since X, I&apos;m invested in
                   this community personally as well as professionally."]
                 </p>
@@ -94,19 +94,19 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-2 text-slate-600 text-sm list-none">
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">—</span>
-                  <span>Florida Licensed Real Estate Professional · License #[FL_LICENSE_NUMBER]</span>
+                  <span className="text-slate-400 mt-1">â€”</span>
+                  <span>Florida Licensed Real Estate Professional ÃÂ· License #[FL_LICENSE_NUMBER]</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">—</span>
+                  <span className="text-slate-400 mt-1">â€”</span>
                   <span>[PLACEHOLDER: Brokerage affiliation]</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">—</span>
+                  <span className="text-slate-400 mt-1">â€”</span>
                   <span>[PLACEHOLDER: Professional associations, e.g., CCIM, LoopNet member, etc.]</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-slate-400 mt-1">—</span>
+                  <span className="text-slate-400 mt-1">â€”</span>
                   <span>[PLACEHOLDER: Education or certifications]</span>
                 </li>
               </ul>
@@ -158,3 +158,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

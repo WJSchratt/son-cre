@@ -45,7 +45,7 @@ export default function HomePage() {
               St. Petersburg, Florida
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
-              [OWNER_FULL_NAME]
+              Son Hai Vo
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 font-light mb-4">
               Commercial Real Estate Advisor
@@ -54,7 +54,7 @@ export default function HomePage() {
               Helping investors, business owners, and property owners navigate the commercial
               real estate market in St. Petersburg and throughout Pinellas County. Whether
               you&apos;re acquiring your next asset, positioning a property for sale, or seeking
-              expert market insights — I provide the guidance to make informed decisions.
+              expert market insights â€” I provide the guidance to make informed decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -135,8 +135,8 @@ export default function HomePage() {
               </h2>
               <p className="text-slate-600 leading-relaxed mb-5">
                 Commercial real estate is hyper-local. Deep knowledge of Pinellas County
-                submarkets — from Downtown St. Pete and the Grand Central District to Clearwater
-                and beyond — means actionable insights, not generic advice.
+                submarkets â€” from Downtown St. Pete and the Grand Central District to Clearwater
+                and beyond â€” means actionable insights, not generic advice.
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
                 Focused on retail, office, industrial, and multifamily asset classes. Whether
@@ -145,7 +145,7 @@ export default function HomePage() {
               </p>
               <div className="flex items-center gap-2 text-slate-500 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>St. Petersburg, FL · Pinellas County · Tampa Bay Area</span>
+                <span>St. Petersburg, FL ÃÂ· Pinellas County ÃÂ· Tampa Bay Area</span>
               </div>
             </div>
             <div className="bg-stone-100 rounded-2xl p-10 text-center">
@@ -153,9 +153,9 @@ export default function HomePage() {
               <p className="text-slate-500 text-sm mb-8">St. Petersburg, Florida</p>
               <div className="grid grid-cols-2 gap-4 text-left">
                 {[
-                  { label: "Asset Types", value: "Retail · Office\nIndustrial · Multifamily" },
-                  { label: "Service Area", value: "St. Pete · Clearwater\nTampa Bay" },
-                  { label: "Client Focus", value: "Investors · Business\nOwners · Landlords" },
+                  { label: "Asset Types", value: "Retail ÃÂ· Office\nIndustrial ÃÂ· Multifamily" },
+                  { label: "Service Area", value: "St. Pete ÃÂ· Clearwater\nTampa Bay" },
+                  { label: "Client Focus", value: "Investors ÃÂ· Business\nOwners ÃÂ· Landlords" },
                   { label: "Approach", value: "Data-Driven\nResults-Oriented" },
                 ].map((item) => (
                   <div key={item.label} className="bg-white rounded-lg p-4">
@@ -199,8 +199,8 @@ export default function HomePage() {
               variant="ghost"
               className="text-slate-300 hover:text-white hover:bg-slate-800"
             >
-              <a href="tel:[BUSINESS_PHONE]">
-                <Phone className="mr-2 h-4 w-4" /> [BUSINESS_PHONE]
+              <a href="tel:(352) 222-4850">
+                <Phone className="mr-2 h-4 w-4" /> (352) 222-4850
               </a>
             </Button>
           </div>
@@ -209,3 +209,4 @@ export default function HomePage() {
     </>
   );
 }
+
