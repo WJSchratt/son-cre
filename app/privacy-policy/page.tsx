@@ -101,9 +101,9 @@ export default function PrivacyPolicyPage() {
 
             <Separator />
 
-            {/* SMS SECTION â€” Critical for Twilio A2P compliance */}
+            {/* SMS SECTION — Critical for Twilio A2P compliance */}
             <div className="bg-stone-50 border border-stone-200 rounded-xl p-6">
-              <h2 className="text-xl font-bold text-slate-900 mb-3">4. SMS Messaging â€” Important Notice</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">4. SMS Messaging — Important Notice</h2>
 
               <div className="space-y-4">
                 <p>
@@ -217,7 +217,7 @@ export default function PrivacyPolicyPage() {
             <Separator />
 
             <div>
-              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Contact Us â€” Privacy Questions</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Contact Us — Privacy Questions</h2>
               <p>
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
               </p>

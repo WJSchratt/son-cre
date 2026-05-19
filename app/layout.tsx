@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Son Hai Vo Real Estate | Commercial Real Estate â€” St. Petersburg, FL",
+  title: "Son Hai Vo Real Estate | Commercial Real Estate — St. Petersburg, FL",
   description:
     "Commercial real estate advisory services in St. Petersburg, Florida. Specializing in acquisitions, dispositions, owner representation, and market analysis.",
 };

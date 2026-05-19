@@ -188,7 +188,7 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    {/* SMS Consent Checkbox â€” exact text required for A2P compliance */}
+                    {/* SMS Consent Checkbox — exact text required for A2P compliance */}
                     <div className="rounded-lg border border-stone-200 bg-stone-50 p-4">
                       <div className="flex items-start gap-3">
                         <Checkbox

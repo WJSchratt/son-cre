@@ -55,7 +55,7 @@ export default function TermsOfServicePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-3">2. Intellectual Property</h2>
               <p>
-                All content on this Site â€” including text, graphics, logos, and page design â€” is the property of Son Hai Vo Real Estate or its content suppliers and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from any Site content without our express written permission.
+                All content on this Site — including text, graphics, logos, and page design — is the property of Son Hai Vo Real Estate or its content suppliers and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from any Site content without our express written permission.
               </p>
             </div>
 

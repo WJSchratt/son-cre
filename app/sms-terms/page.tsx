@@ -191,7 +191,7 @@ export default function SmsTermsPage() {
             <Separator />
 
             <div>
-              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Privacy â€” No Third-Party Sharing</h2>
+              <h2 className="text-xl font-bold text-slate-900 mb-3">10. Privacy — No Third-Party Sharing</h2>
               <p>
                 Phone numbers and opt-in consent data collected for our SMS program are <strong>NOT shared with third parties or affiliates for marketing purposes</strong>. Your phone number is used solely to facilitate SMS communications from Son Hai Vo Real Estate and to maintain compliance records.
               </p>
@@ -221,7 +221,7 @@ export default function SmsTermsPage() {
                 <p>100 2nd Ave S, Ste 100, St. Petersburg, FL 33701</p>
                 <p className="mt-2">
                   <a href="mailto:svo@smithandassociates.com" className="underline hover:text-slate-600">svo@smithandassociates.com</a>
-                  {" ÃÂ· "}
+                  {" · "}
                   <a href="tel:(352) 222-4850" className="underline hover:text-slate-600">(352) 222-4850</a>
                 </p>
               </div>
